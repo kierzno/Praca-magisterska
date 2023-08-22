@@ -77,7 +77,7 @@ for i in 1:reps
         end
     end
     append!(total, money)
-    writedlm( "C:\\Users\\User\\Desktop\\Studia\\Praca magisterska\\pliki\\File.csv",  total, ',')
+    writedlm( "File.csv",  total, ',')
     println(i)
 end
 
